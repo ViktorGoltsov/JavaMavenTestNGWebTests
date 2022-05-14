@@ -23,7 +23,7 @@ public class WebTest {
         String expectedResult = "Welcome to 99 Bottles of Beer";
 
         System.setProperty(chromeDriver, driverPath);
-        WebDriver driver = new ChromeDriver();
+                WebDriver driver = new ChromeDriver();
 
 
         driver.get(url);
